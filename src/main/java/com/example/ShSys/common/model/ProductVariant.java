@@ -24,4 +24,5 @@ public class ProductVariant {
     private String unitType;
     private String barCode;
     private String Picture;
+    private String description;
 }
