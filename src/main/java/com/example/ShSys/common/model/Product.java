@@ -16,18 +16,6 @@ public class Product {
     private String name;
     private String brandName;
     private String category;
-    private Double B2Bprice;
-    private Double B2Cprice;
-    private Double discoutB2Bprice;
-    private Double discoutB2Cprice;
-    private double taxBracket;
-    private Long count;
-    private String unitType;
-    private String barCode;
-    private String Picture;
-
-
-
-
+    private String subCategory;
 
 }
