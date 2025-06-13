@@ -1,4 +1,4 @@
-package com.example.ShSys.common.model;
+package com.example.ShSys.common.model.product;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
@@ -15,14 +15,15 @@ public class ProductVariant {
 
     private String variantName;
     private String subSubCategory;
+
     private Double B2Bprice;
     private Double B2Cprice;
     private Double discoutB2Bprice;
     private Double discoutB2Cprice;
-    private Double taxBracket;
+
     private Long count;
     private String unitType;
     private String barCode;
-    private String Picture;
-    private String description;
+
+    private String shortDescription;
 }
